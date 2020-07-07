@@ -93,9 +93,9 @@ app.delete("/blogs/:id",function(req,res){
 
 
 
-var port = process.env.Port || 3000;
+//var port = process.env.Port || 3000;
 
 
-app.listen(port,process.env.IP,function(){
+app.listen(process.env.PORT,process.env.IP,function(){
 	console.log("server to blogapp connected");
 });
