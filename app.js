@@ -93,7 +93,7 @@ app.delete("/blogs/:id",function(req,res){
 
 
 
-var port = process.env.Port || 3000;
+var port = process.env.PORT || 3000;
 
 
 app.listen(port,process.env.IP,function(){
